@@ -1,0 +1,17 @@
+[2026-06-03 07:05:12] [ERROR] [::1] DB connection failed: SQLSTATE[HY000] [1049] Unknown database 'wavefm'
+[2026-06-03 08:53:54] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.listener_analytics' doesn't exist | SQL: SELECT COUNT(DISTINCT session_id) AS cnt FROM listener_analytics 
+             WHERE last_active >= DATE_SUB(NOW(), INTERVAL 5 MINUTE)
+[2026-06-03 08:54:04] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.listener_analytics' doesn't exist | SQL: SELECT COUNT(DISTINCT session_id) AS cnt FROM listener_analytics 
+             WHERE last_active >= DATE_SUB(NOW(), INTERVAL 5 MINUTE)
+[2026-06-03 08:54:06] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.listener_analytics' doesn't exist | SQL: SELECT COUNT(DISTINCT session_id) AS cnt FROM listener_analytics 
+             WHERE last_active >= DATE_SUB(NOW(), INTERVAL 5 MINUTE)
+[2026-06-03 08:54:24] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.listener_analytics' doesn't exist | SQL: SELECT COUNT(DISTINCT session_id) AS cnt FROM listener_analytics 
+             WHERE last_active >= DATE_SUB(NOW(), INTERVAL 5 MINUTE)
+[2026-06-03 08:54:54] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.listener_analytics' doesn't exist | SQL: SELECT COUNT(DISTINCT session_id) AS cnt FROM listener_analytics 
+             WHERE last_active >= DATE_SUB(NOW(), INTERVAL 5 MINUTE)
+[2026-06-03 09:10:35] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-06-03 09:10:41] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-06-03 09:19:19] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-06-03 10:04:30] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.subscribers' doesn't exist | SQL: SELECT * FROM subscribers WHERE is_active = 1 ORDER BY subscribed_at DESC LIMIT 15 OFFSET 0
+[2026-06-03 10:04:51] [ERROR] [::1] Query failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wavefm.subscribers' doesn't exist | SQL: SELECT * FROM subscribers WHERE is_active = 1 ORDER BY subscribed_at DESC LIMIT 15 OFFSET 0
+[2026-06-12 07:10:19] [ERROR] [::1] DB connection failed: SQLSTATE[HY000] [1049] Unknown database 'wavefm'

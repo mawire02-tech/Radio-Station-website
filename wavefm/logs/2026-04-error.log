@@ -1,0 +1,5 @@
+[2026-04-08 09:57:52] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-04-08 09:58:08] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-04-08 10:10:25] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-04-08 10:10:29] [ERROR] [::1] View not found: C:\xampp\htdocs\wavefm/app/views/admin/podcasts/form.php
+[2026-04-18 18:51:00] [ERROR] [::1] Query failed: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away | SQL: SELECT n.*,c.name AS category_name,c.color AS category_color FROM news n JOIN categories c ON c.id=n.category_id WHERE n.status='published' AND n.featured=1 ORDER BY n.published_at DESC LIMIT ?
